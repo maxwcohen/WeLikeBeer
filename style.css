@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+}
+
+img{
+  width: 400px;
+  margin: 10px;
+}
+
+.imageRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+h1{
+  font-family: "poplar-std";
+  font-size: 5em;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.yellow{
+  color: #f0ec00;
+}
+
+.purple{
+  color: #670d77;
+}
+
+h2{
+  font-family: "poplar-std";
+  font-size: 4em;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+h3{
+  font-family: "poplar-std";
+  font-size: 3em;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+h4{
+  font-family: "poplar-std";
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 0px;
+  letter-spacing: 0.005em;
+}
+
+.slide{
+  min-height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3% 0%;
+}
+.slide.purple{
+  background-color: #670d77;
+}
+.slide.yellow{
+  background-color: #f0ec00;
+  text-align: right;
+}
+
+.consensually{
+  vertical-align: top;
+  color: #670d77;
+  background-color: #f0ec00;
+  padding-left: 10%;
+}
+
+p{
+  font-family: "saira";
+}
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+  h4{
+    font-size: 1.5em;
+  }
+  img{
+    width: 200px;
+  }
+
+}
