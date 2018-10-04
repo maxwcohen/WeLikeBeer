@@ -67,6 +67,7 @@ h4{
 .slide.yellow{
   background-color: #f0ec00;
   text-align: right;
+  min-height: 400px;
 }
 
 .consensually{
